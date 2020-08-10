@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/mousuni\ island.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.menudropdown1{
+    width: 80%;
+    height: 100px;
+    margin: 10px auto;
+}
+
+.menudropdown1 ul{
+    
+}
+
+.menudropdown1 ul li{
+    float: left;
+    background-color: black;
+    color: white;
+    width: 200px;
+    list-style-type: none;
+    line-height: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.menudropdown1 ul li ul{
+    display: none;
+}
+
+.menudropdown1 ul li:hover > ul{
+    display: block;
+}
+
+.menudropdown1 ul li:hover{
+    background-color: green;
+    opacity: 0.9;
+}
+
+.menudropdown1 ul li ul li{
+    position: relative;
+}
+
+.menudropdown1 ul li ul li ul{
+    position: absolute;
+    left: 200px;
+    top: 0px;
+}
+
+
+
